@@ -1,0 +1,26 @@
+:root {
+    --var-background: black;
+    --var-text: white;
+}
+
+body {
+    background: var(--var-background);
+    color: var(--var-text);
+    font-family: Arial;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.info {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.header-logo {
+    height: 150px;
+}
